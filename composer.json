@@ -1,0 +1,32 @@
+{
+    "name": "konstantinn/laravel-github-deploy",
+    "description": "Easy deploy laravel project to github.",
+    "keywords": ["laravel", "deploy", "github"],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Konstantin Noskov",
+            "email": "admin@site-for-you.com",
+            "homepage": "https://site-for-you.com/"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php" : "^7.2",
+        "illuminate/support": "~5.8.0|^6.0",
+        "illuminate/routing": "~5.8.0|^6.0",
+        "symfony/process": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Konstantin\\LaravelGitHubDeploy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Konstantin\\LaravelGitHubDeploy\\DeployServiceProvider"
+            ]
+        }
+    }
+}
