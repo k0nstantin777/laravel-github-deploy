@@ -2,7 +2,7 @@
     "name": "konstantinn/laravel-github-deploy",
     "description": "Easy deploy laravel project to github.",
     "keywords": ["laravel", "deploy", "github"],
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Konstantin Noskov",
