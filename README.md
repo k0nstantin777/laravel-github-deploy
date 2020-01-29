@@ -7,7 +7,7 @@
 
 ## About
 
-This package lets deploy laravel package to github use webhook.
+This package allows you to automate the publication of updates to your server, after publishing them to Github.
 
 ## Install
 
