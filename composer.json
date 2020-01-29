@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Konstantin\\LaravelGitHubDeploy\\": "src/"
+            "Konstantinn\\LaravelGitHubDeploy\\": "src/"
         }
     },
     "extra": {
